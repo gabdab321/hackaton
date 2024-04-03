@@ -4,11 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f11a478-2892-4072-ad30-754c9eb6cd0d" name="Changes" comment="" />
+    <list default="true" id="4f11a478-2892-4072-ad30-754c9eb6cd0d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About/About.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategoryMenu/CategoryMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategoryMenu/CategoryMenu.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsList/ProductsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductsList/ProductsList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Error/Error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Error/Error.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MainPage/MainPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ea78TnpG45n4n44tEt2Xok679o" />
   <component name="ProjectViewState">
@@ -20,15 +76,20 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vania\Desktop\hackaton\project\src\context" />
+      <recent name="C:\Users\vania\Desktop\hackaton\project\src\components" />
       <recent name="C:\Users\vania\Desktop\hackaton\project\pages" />
     </key>
   </component>
@@ -40,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712130677076</updated>
-      <workItem from="1712130678637" duration="898000" />
+      <workItem from="1712130678637" duration="26062000" />
     </task>
     <servers />
   </component>

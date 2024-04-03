@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+
+    align-self: center;
+}
+
+.list {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+
+    margin-top: 30px;
+}
