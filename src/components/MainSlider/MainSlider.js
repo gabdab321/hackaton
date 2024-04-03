@@ -43,13 +43,13 @@ export default function MainSlider() {
     return (
         <Slider {...settings}>
             <div className={cl.slide}>
-                <img src={Slide1}/>
+                <img src={Slide4}/>
             </div>
             <div className={cl.slide}>
                 <img src={Slide3}/>
             </div>
             <div className={cl.slide}>
-                <img src={Slide4}/>
+                <img src={Slide1}/>
             </div>
             <div className={cl.slide}>
                 <img src={Slide5}/>

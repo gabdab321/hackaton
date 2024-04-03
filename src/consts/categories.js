@@ -1,7 +1,7 @@
 export const categories = [
-    {id: 1, name: "СЫЛО"},
-    {id: 2, name: "Мыло"},
-    {id: 3, name: "аЫвфыв"},
-    {id: 4, name: "ячси фыва"},
-    {id: 5, name: "мфывп фыв пфы"},
+    {id: 1, name: "Мило Black Mamba"},
+    {id: 2, name: "Тверде мило"},
+    {id: 3, name: "Рідке мило"},
+    {id: 4, name: "Якесь ще мило"},
+    {id: 5, name: "Прікольне мило"},
 ]
