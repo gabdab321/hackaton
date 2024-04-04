@@ -46,10 +46,10 @@ const LoginPage = () => {
     return (
         <div className="login">
             <div className="container_login">
-                <h2>Вход</h2>
+                <h2>Вхід</h2>
                 <form id="loginForm">
                     <div className="input-group">
-                        <label htmlFor="username">Имя пользователя:</label>
+                        <label htmlFor="username">Імʼя користувача:</label>
                         <input
                             value={credentials.username}
                             onChange={e => setCredentials({...credentials, username: e.target.value})}
@@ -71,11 +71,11 @@ const LoginPage = () => {
                         />
                     </div>
                     <div className="input-group">
-                        <button onClick={login} >Войти</button>
+                        <button onClick={login} >Увійти</button>
                     </div>
                 </form>
                 <div className="register-link">
-                    Нет аккаунта? <Link to="/registration">Зарегистрироваться</Link>
+                    Немає облікового запису? <Link to="/registration">Зареєструватися</Link>
                 </div>
                 {error && <Error text={error}/>}
             </div>
