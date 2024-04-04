@@ -12,13 +12,21 @@
     padding: 0 60px;
 }
 
+@media screen and (max-width: 850px){
+    .footer {
+        padding: 0 20px;
+    }
+
+    .company_name {
+        width: 100px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
 .company_name {
     font-size: 20px;
     font-weight: bold;
-}
-
-.socials {
-
 }
 
 .socials a {
@@ -28,6 +36,16 @@
     margin-left: 20px;
 
     transition: 0.6s all ease;
+}
+
+@media screen and (max-width: 530px) {
+    .socials {
+        display: none;
+    }
+}
+
+.socials a:first-child {
+    margin-left: 0;
 }
 
 .socials a:hover {

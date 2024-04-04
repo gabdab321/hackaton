@@ -5,6 +5,7 @@ import SearchSVG from "../../assets/search.svg"
 import CategoryMenu from "../CategoryMenu/CategoryMenu";
 import LogoPNG from "../../assets/logo.png"
 import {Link} from "react-router-dom";
+import Search from "../Search/Search";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false)
@@ -41,7 +42,7 @@ const Navbar = () => {
                 >
                     <img src={MenuSVG} alt=""/> <p>Категорії товарів</p>
                 </div>
-                <input placeholder="Пошук товарів" className={cl.navInput}/>{/*<img src={SearchSVG} alt=""/> <p>Пошук товарів</p></input>*/}
+                <Search/>
             </div>
             <Link to="/" className={cl.logo}><img src={LogoPNG}/></Link>
         </div>

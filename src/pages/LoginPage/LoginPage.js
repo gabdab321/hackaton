@@ -4,19 +4,19 @@ import {Link, useNavigate} from "react-router-dom";
 import {AuthContext} from "../../context/AuthContext";
 import Error from "../../components/UI/Error/Error";
 
+/* перенесено з чистого html, css, js */
 const LoginPage = () => {
     const navigate = useNavigate()
     const {setIsAuth} = useContext(AuthContext)
     const [error, setError] = useState("")
     const [credentials, setCredentials] = useState({username: "", password: ""})
 
-    // Функция для изменения фонового изображения каждую секунду
-    function changeBackground() {
-        const width = window.innerWidth;
-        const height = window.innerHeight;
-        const imageURL = `https://picsum.photos/${width}/${height}?random=1`;
-        document.querySelector(".login").style.backgroundImage = `url(${imageURL})`;
-    }
+    // function changeBackground() {
+    //     const width = window.innerWidth;
+    //     const height = window.innerHeight;
+    //     const imageURL = `https://picsum.photos/${width}/${height}?random=1`;
+    //     document.querySelector(".login").style.backgroundImage = `url(${imageURL})`;
+    // }
 
     function login(e) {
         e.preventDefault()
@@ -45,7 +45,7 @@ const LoginPage = () => {
     console.log(error)
     return (
         <div className="login">
-            <div className="container">
+            <div className="container_login">
                 <h2>Вход</h2>
                 <form id="loginForm">
                     <div className="input-group">

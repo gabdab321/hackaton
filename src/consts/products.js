@@ -9,58 +9,63 @@ import Slide5 from "../assets/slides/5.png"
 export const products = [
     {
         id: 1,
-        name: "Мило",
-        description: "Круте мило",
+        name: "Рідке мило  Black Mamba liquid soap",
+        description: "Чорне рідке мило, упаковане у перероблений пластиковий дозатор",
         image: Slide1,
         price: 200,
         reviewsCount: 458,
         rating: 4.7,
         flavor: "Кокос",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: true,
     },
     {
         id: 2,
-        name: "Мило Honey Bliss",
-        description: "Ароматне мило з медом, живить і зволожує шкіру, робить її м'якою і шовковистою.",
+        name: "Тверде мило Black Mamba hand soap",
+        description: "Чорне тверде мило для рук, упаковане у коробку з екологічно чистого картону",
         image: Slide2,
         price: 220,
         reviewsCount: 432,
         rating: 4.6,
         flavor: "Мед",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: true,
     },
     {
         id: 3,
-        name: "Мило Citrus Burst",
-        description: "Освіжаюче мило з цитрусовими нотками, піднімає настрій і бадьорить.",
+        name: "Комплект Total Black Mamba",
+        description: "Комплект з Black Mamba liquid soap,shampoo,shower gel. Упаковані у екологічно чистий пластиковий дозатор",
         image: Slide3,
         price: 180,
         reviewsCount: 375,
         rating: 4.5,
         flavor: "Цитруси",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: true,
     },
     {
         id: 4,
-        name: "Мило Ocean Breeze",
-        description: "Мило з морськими акцентами, залишає відчуття свіжості і чистоти.",
+        name: "Тверде мило Black Mamba",
+        description: "Чорне тверде мило для рук, упаковане у коробку з екологічно чистого картону",
         image: Slide4,
         price: 200,
         reviewsCount: 389,
         rating: 4.7,
         flavor: "Морський бриз",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: true,
     },
     {
         id: 5,
-        name: "Мило Rose Garden",
-        description: "Ароматне мило з нотами троянди, створює романтичну атмосферу та дбає про шкіру.",
+        name: "Антисептик Black Mamba antiseptic",
+        description: "Антисептик Black Mamba. Упакований у екологічно чистий пластиковий дозатор",
         image: Slide5,
         price: 280,
         reviewsCount: 601,
         rating: 4.9,
         flavor: "Троянда",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: true,
     },
     {
         id: 6,
@@ -71,7 +76,8 @@ export const products = [
         reviewsCount: 488,
         rating: 4.7,
         flavor: "Кокос",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 7,
@@ -82,7 +88,8 @@ export const products = [
         reviewsCount: 409,
         rating: 4.6,
         flavor: "Зелений чай",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 8,
@@ -93,7 +100,8 @@ export const products = [
         reviewsCount: 522,
         rating: 4.8,
         flavor: "Ваніль",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 9,
@@ -104,7 +112,8 @@ export const products = [
         reviewsCount: 451,
         rating: 4.6,
         flavor: "Манго",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 10,
@@ -115,7 +124,8 @@ export const products = [
         reviewsCount: 489,
         rating: 4.8,
         flavor: "Масло ши",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 11,
@@ -126,7 +136,8 @@ export const products = [
         reviewsCount: 372,
         rating: 4.5,
         flavor: "Чайне дерево",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 12,
@@ -137,7 +148,8 @@ export const products = [
         reviewsCount: 411,
         rating: 4.6,
         flavor: "Мигдаль",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 13,
@@ -148,7 +160,8 @@ export const products = [
         reviewsCount: 389,
         rating: 4.7,
         flavor: "Алое вера",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 14,
@@ -159,7 +172,8 @@ export const products = [
         reviewsCount: 398,
         rating: 4.6,
         flavor: "Евкаліпт",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     },
     {
         id: 15,
@@ -170,6 +184,7 @@ export const products = [
         reviewsCount: 355,
         rating: 4.4,
         flavor: "Ромашка",
-        size: "200*300мм"
+        size: "200*300мм",
+        constructor: false
     }
 ]

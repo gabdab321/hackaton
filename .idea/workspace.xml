@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f11a478-2892-4072-ad30-754c9eb6cd0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/GamePage/GamePage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/GamePage/GamePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dropdown/Dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dropdown/Dropdown.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consts/soap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consts/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainSlider/MainSlider.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductsList/ProductsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductsList/ProductsList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consts/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/consts/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GamePage/GamePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GamePage/GamePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage/ProductPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegistrationPage/RegistrationPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712130677076</updated>
-      <workItem from="1712130678637" duration="32946000" />
+      <workItem from="1712130678637" duration="45321000" />
     </task>
     <servers />
   </component>

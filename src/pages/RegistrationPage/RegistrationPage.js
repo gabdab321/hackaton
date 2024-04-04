@@ -1,19 +1,20 @@
 import React, {useContext, useEffect, useState} from 'react';
-import "./RegistrationPage.css"
 import {Link, useNavigate} from "react-router-dom";
 import {AuthContext} from "../../context/AuthContext";
+import "./RegistrationPage.css"
 
+/* перенесено з чистого html, css, js */
 const RegistrationPage = () => {
     const navigate = useNavigate()
     const [credentials, setCredentials] = useState({username: "", password: ""})
-    const {isAuth, setIsAuth} = useContext(AuthContext)
+    const {setIsAuth} = useContext(AuthContext)
 
-    function changeBackground() {
-        const width = window.innerWidth;
-        const height = window.innerHeight;
-        const imageURL = `https://picsum.photos/${width}/${height}?random=1`;
-        document.querySelector(".register").style.backgroundImage = `url(${imageURL})`;
-    }
+    // function changeBackground() {
+    //     const width = window.innerWidth;
+    //     const height = window.innerHeight;
+    //     const imageURL = `https://picsum.photos/${width}/${height}?random=1`;
+    //     document.querySelector(".register").style.backgroundImage = `url(${imageURL})`;
+    // }
 
     function register() {
         localStorage.setItem("isAuth", true)
@@ -22,17 +23,17 @@ const RegistrationPage = () => {
         navigate("/")
     }
 
-    useEffect(() => {
-        changeBackground()
-    }, []);
+    // useEffect(() => {
+    //     changeBackground()
+    // }, []);
 
     return (
         <div className="register">
             <div className="container">
-                <h2>Регистрация</h2>
+                <h2>Реєстрація</h2>
                 <form id="registrationForm">
                     <div className="input-group">
-                        <label htmlFor="username">Имя пользователя:</label>
+                        <label htmlFor="username">Ім'я користувача:</label>
                         <input
                             value={credentials.username}
                             onChange={e => setCredentials({...credentials, username: e.target.value})}
@@ -58,12 +59,12 @@ const RegistrationPage = () => {
                         />
                     </div>
                     <div className="input-group">
-                        <button onClick={register}>Зарегистрироваться</button>
+                        <button onClick={register}>Зареєструватись</button>
                     </div>
                 </form>
 
                 <div className="login-link">
-                    Уже есть аккаунт? <Link to="/login">Войти</Link>
+                    Вже є обліковий запис? <Link to="/login">Увійти</Link>
                 </div>
             </div>
         </div>

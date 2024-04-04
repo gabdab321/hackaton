@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import "./GamePage.css"
 
+/* перенесено з чистого html, css, js */
 const GamePage = () => {
     useEffect(() => {
         const handleMouseMove = (e) => {
